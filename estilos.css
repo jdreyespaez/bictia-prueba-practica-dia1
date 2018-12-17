@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'pbold';
+	src: url("http://movidagrafica.co/font/proximanova-bold-webfont.eot?#iefix") format('embedded-opentype'), 
+	url("http://movidagrafica.co/font/proximanova-bold-webfont.ttf")  format('truetype');
+}
+
+@font-face {
+	font-family: 'plight';
+	src: url("http://movidagrafica.co/font/proximanova-light-webfont.eot?#iefix") format('embedded-opentype'), 
+	url("http://movidagrafica.co/font/proximanova-light-webfont.ttf")  format('truetype');
+}
+
+@font-face {
+	font-family: 'coro';
+	src: url("http://movidagrafica.co/font/CoronetLTStd-Bold.eot?#iefix") format('embedded-opentype'), 
+	url("http://movidagrafica.co/font/CoronetLTStd-Bold.ttf")  format('truetype');
+}
+
+
+@font-face {
+	font-family: 'aleo';
+	src: url("http://movidagrafica.co/font/Aleo-LightItalic-webfont.eot?#iefix") format('embedded-opentype'), 
+	url("http://movidagrafica.co/font/Aleo-LightItalic-webfont.ttf")  format('truetype');
+}
+
+
+@font-face {
+	font-family: 'iconos';
+	src: url("http://movidagrafica.co/font/fontawesome-webfont.eot?#iefix") format('embedded-opentype'), 
+	url("http://movidagrafica.co/font/fontawesome-webfont.ttf")  format('truetype');
+}	
+
+html{ 
+    height:100%;
+}
+
+
+body{	
+	color:#252525;
+	font-family:'plight', Arial, sans-serif;
+	background:#fff;
+	height:100%;
+}
