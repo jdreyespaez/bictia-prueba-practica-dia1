@@ -126,3 +126,61 @@ body{
     transform: translate(-50%, -50%);
     z-index:1;
 }
+
+#videote a#logo{
+	position:absolute;
+	z-index:3;
+	left:50%;
+	top:70px;
+	-webkit-transform:translate(-50%,0);
+	transform:translate(-50%,0);
+    display:inline-block;
+}
+
+#videote #slogan{
+    position:absolute;
+    left:50%;
+    top:57%;
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    color:#FFF;
+    text-align:center;
+    z-index:3;
+    width:100%;
+}
+
+#slogan .frase{ 
+    font-family:'pbold';
+    font-size:70px;
+    text-transform:uppercase;
+    display:inline-block;
+    white-space:nowrap;
+    position:absolute;
+    width:100%;
+    text-align:center;
+    top:0;
+    left:50%;
+    -webkit-transform:translate(-50%,0);
+    transform:translate(-50%,0);
+}
+
+#slogan .movidagrafica{ 
+    left:2500px;
+}
+
+#separador{
+    clear: both;
+    visibility:hidden;
+}
+
+#slogan .separaslogan{ 
+    height:80px;
+}
+
+#slogan h2{
+    font-family:coro;
+    font-style:italic;
+    font-size:40px;
+}
+
+#slogan .subtitulo{ opacity:0;}
